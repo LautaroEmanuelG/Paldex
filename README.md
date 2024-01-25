@@ -1,0 +1,2 @@
+# Paldex
+Wiki Palworld
