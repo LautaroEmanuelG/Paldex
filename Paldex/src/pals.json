@@ -9,15 +9,15 @@
     "imageWiki": "https://static.wikia.nocookie.net/palworld/images/0/01/Lamball_menu.png/",
     "suitability": [
       {
-        "type": "handiwork",
+        "type": "Handiwork",
         "level": 1
       },
       {
-        "type": "transporting",
+        "type": "Transporting",
         "level": 1
       },
       {
-        "type": "farming",
+        "type": "Farming",
         "level": 1
       }
     ],
@@ -38,19 +38,19 @@
     "imageWiki": "https://static.wikia.nocookie.net/palworld/images/5/51/Cattiva_menu.png/",
     "suitability": [
       {
-        "type": "handiwork",
+        "type": "Handiwork",
         "level": 1
       },
       {
-        "type": "transporting",
+        "type": "Transporting",
         "level": 1
       },
       {
-        "type": "gathering",
+        "type": "Gathering",
         "level": 1
       },
       {
-        "type": "mining",
+        "type": "Mining",
         "level": 1
       }
     ],
@@ -71,11 +71,11 @@
     "imageWiki": "https://static.wikia.nocookie.net/palworld/images/f/f4/Chikipi_menu.png/",
     "suitability": [
       {
-        "type": "gathering",
+        "type": "Gathering",
         "level": 1
       },
       {
-        "type": "farming",
+        "type": "Farming",
         "level": 1
       }
     ],
@@ -96,15 +96,15 @@
     "imageWiki": "https://static.wikia.nocookie.net/palworld/images/d/dc/Lifmunk_menu.png/",
     "suitability": [
       {
-        "type": "planting",
+        "type": "Planting",
         "level": 1
       },
       {
-        "type": "handiwork",
+        "type": "Handiwork",
         "level": 1
       },
       {
-        "type": "lumbering",
+        "type": "Lumbering",
         "level": 1
       },
       {
@@ -112,7 +112,7 @@
         "level": 1
       },
       {
-        "type": "gathering",
+        "type": "Gathering",
         "level": 1
       }
     ],
@@ -133,7 +133,7 @@
     "imageWiki": "https://static.wikia.nocookie.net/palworld/images/d/d7/Foxparks_menu.png/",
     "suitability": [
       {
-        "type": "kindling",
+        "type": "Kindling",
         "level": 1
       }
     ],
@@ -154,15 +154,15 @@
     "imageWiki": "https://static.wikia.nocookie.net/palworld/images/5/5e/Fuack_menu.png/",
     "suitability": [
       {
-        "type": "handiwork",
+        "type": "Handiwork",
         "level": 1
       },
       {
-        "type": "transporting",
+        "type": "Transporting",
         "level": 1
       },
       {
-        "type": "watering",
+        "type": "Watering",
         "level": 1
       }
     ],
@@ -183,11 +183,11 @@
     "imageWiki": "https://static.wikia.nocookie.net/palworld/images/c/ce/Sparkit_menu.png/",
     "suitability": [
       {
-        "type": "handiwork",
+        "type": "Handiwork",
         "level": 1
       },
       {
-        "type": "transporting",
+        "type": "Transporting",
         "level": 1
       },
       {
@@ -212,23 +212,23 @@
     "imageWiki": "https://static.wikia.nocookie.net/palworld/images/4/40/Tanzee_menu.png/",
     "suitability": [
       {
-        "type": "planting",
+        "type": "Planting",
         "level": 1
       },
       {
-        "type": "handiwork",
+        "type": "Handiwork",
         "level": 1
       },
       {
-        "type": "lumbering",
+        "type": "Lumbering",
         "level": 1
       },
       {
-        "type": "transporting",
+        "type": "Transporting",
         "level": 1
       },
       {
-        "type": "gathering",
+        "type": "Gathering",
         "level": 1
       }
     ],
@@ -249,7 +249,7 @@
     "imageWiki": "https://static.wikia.nocookie.net/palworld/images/2/21/Rooby_menu.png/",
     "suitability": [
       {
-        "type": "kindling",
+        "type": "Kindling",
         "level": 1
       }
     ],
@@ -270,19 +270,19 @@
     "imageWiki": "https://static.wikia.nocookie.net/palworld/images/3/38/Pengullet_menu.png/",
     "suitability": [
       {
-        "type": "handiwork",
+        "type": "Handiwork",
         "level": 1
       },
       {
-        "type": "transporting",
+        "type": "Transporting",
         "level": 1
       },
       {
-        "type": "watering",
+        "type": "Watering",
         "level": 1
       },
       {
-        "type": "cooling",
+        "type": "Cooling",
         "level": 1
       }
     ],
@@ -303,23 +303,23 @@
     "imageWiki": "https://static.wikia.nocookie.net/palworld/images/b/b5/Penking_menu.png/",
     "suitability": [
       {
-        "type": "handiwork",
+        "type": "Handiwork",
         "level": 2
       },
       {
-        "type": "transporting",
+        "type": "Transporting",
         "level": 2
       },
       {
-        "type": "watering",
+        "type": "Watering",
         "level": 2
       },
       {
-        "type": "mining",
+        "type": "Mining",
         "level": 2
       },
       {
-        "type": "cooling",
+        "type": "Cooling",
         "level": 2
       }
     ],
@@ -361,7 +361,7 @@
     "imageWiki": "https://static.wikia.nocookie.net/palworld/images/2/2e/Gumoss_menu.png/",
     "suitability": [
       {
-        "type": "planting",
+        "type": "Planting",
         "level": 1
       }
     ],
@@ -382,11 +382,11 @@
     "imageWiki": "https://static.wikia.nocookie.net/palworld/images/9/9e/Vixy_menu.png/",
     "suitability": [
       {
-        "type": "gathering",
+        "type": "Gathering",
         "level": 1
       },
       {
-        "type": "farming",
+        "type": "Farming",
         "level": 1
       }
     ],
@@ -407,7 +407,7 @@
     "imageWiki": "https://static.wikia.nocookie.net/palworld/images/e/ef/Hoocrates_menu.png/",
     "suitability": [
       {
-        "type": "gathering",
+        "type": "Gathering",
         "level": 1
       }
     ],
@@ -428,7 +428,7 @@
     "imageWiki": "https://static.wikia.nocookie.net/palworld/images/a/a7/Teafant_menu.png/",
     "suitability": [
       {
-        "type": "watering",
+        "type": "Watering",
         "level": 1
       }
     ],
@@ -449,15 +449,15 @@
     "imageWiki": "https://static.wikia.nocookie.net/palworld/images/d/d9/Depresso_menu.png/",
     "suitability": [
       {
-        "type": "handiwork",
+        "type": "Handiwork",
         "level": 1
       },
       {
-        "type": "transporting",
+        "type": "Transporting",
         "level": 1
       },
       {
-        "type": "mining",
+        "type": "Mining",
         "level": 1
       }
     ],
@@ -478,11 +478,11 @@
     "imageWiki": "https://static.wikia.nocookie.net/palworld/images/a/a1/Cremis_menu.png/",
     "suitability": [
       {
-        "type": "gathering",
+        "type": "Gathering",
         "level": 1
       },
       {
-        "type": "farming",
+        "type": "Farming",
         "level": 1
       }
     ],
@@ -503,15 +503,15 @@
     "imageWiki": "https://static.wikia.nocookie.net/palworld/images/e/e6/Daedream_menu.png/",
     "suitability": [
       {
-        "type": "handiwork",
+        "type": "Handiwork",
         "level": 1
       },
       {
-        "type": "transporting",
+        "type": "Transporting",
         "level": 1
       },
       {
-        "type": "gathering",
+        "type": "Gathering",
         "level": 1
       }
     ],
@@ -532,7 +532,7 @@
     "imageWiki": "https://static.wikia.nocookie.net/palworld/images/d/d0/Rushoar_menu.png/",
     "suitability": [
       {
-        "type": "mining",
+        "type": "Mining",
         "level": 1
       }
     ],
@@ -553,7 +553,7 @@
     "imageWiki": "https://static.wikia.nocookie.net/palworld/images/5/55/Nox_menu.png/",
     "suitability": [
       {
-        "type": "gathering",
+        "type": "Gathering",
         "level": 1
       }
     ],
@@ -574,15 +574,15 @@
     "imageWiki": "https://static.wikia.nocookie.net/palworld/images/6/64/Fuddler_menu.png/",
     "suitability": [
       {
-        "type": "handiwork",
+        "type": "Handiwork",
         "level": 1
       },
       {
-        "type": "transporting",
+        "type": "Transporting",
         "level": 1
       },
       {
-        "type": "mining",
+        "type": "Mining",
         "level": 1
       }
     ],
@@ -603,11 +603,11 @@
     "imageWiki": "https://static.wikia.nocookie.net/palworld/images/8/80/Killamari_menu.png/",
     "suitability": [
       {
-        "type": "transporting",
+        "type": "Transporting",
         "level": 2
       },
       {
-        "type": "gathering",
+        "type": "Gathering",
         "level": 1
       }
     ],
@@ -628,7 +628,7 @@
     "imageWiki": "https://static.wikia.nocookie.net/palworld/images/1/17/Mau_menu.png/",
     "suitability": [
       {
-        "type": "farming",
+        "type": "Farming",
         "level": 1
       }
     ],
@@ -649,11 +649,11 @@
     "imageWiki": "https://static.wikia.nocookie.net/palworld/images/9/95/Celaray_menu.png/",
     "suitability": [
       {
-        "type": "transporting",
+        "type": "Transporting",
         "level": 1
       },
       {
-        "type": "watering",
+        "type": "Watering",
         "level": 1
       }
     ],
@@ -674,7 +674,7 @@
     "imageWiki": "https://static.wikia.nocookie.net/palworld/images/1/19/Direhowl_menu.png/",
     "suitability": [
       {
-        "type": "gathering",
+        "type": "Gathering",
         "level": 1
       }
     ],
@@ -695,7 +695,7 @@
     "imageWiki": "https://static.wikia.nocookie.net/palworld/images/5/5b/Tocotoco_menu.png/",
     "suitability": [
       {
-        "type": "gathering",
+        "type": "Gathering",
         "level": 1
       }
     ],
@@ -716,15 +716,15 @@
     "imageWiki": "https://static.wikia.nocookie.net/palworld/images/5/5e/Flopie_menu.png/",
     "suitability": [
       {
-        "type": "planting",
+        "type": "Planting",
         "level": 1
       },
       {
-        "type": "handiwork",
+        "type": "Handiwork",
         "level": 1
       },
       {
-        "type": "gathering",
+        "type": "Gathering",
         "level": 1
       },
       {
@@ -732,7 +732,7 @@
         "level": 1
       },
       {
-        "type": "transporting",
+        "type": "Transporting",
         "level": 1
       }
     ],
@@ -753,7 +753,7 @@
     "imageWiki": "https://static.wikia.nocookie.net/palworld/images/3/3a/Mozzarina_menu.png/",
     "suitability": [
       {
-        "type": "farming",
+        "type": "Farming",
         "level": 1
       }
     ],
@@ -774,11 +774,11 @@
     "imageWiki": "https://static.wikia.nocookie.net/palworld/images/1/13/Bristla_menu.png/",
     "suitability": [
       {
-        "type": "planting",
+        "type": "Planting",
         "level": 1
       },
       {
-        "type": "handiwork",
+        "type": "Handiwork",
         "level": 1
       },
       {
@@ -786,11 +786,11 @@
         "level": 2
       },
       {
-        "type": "transporting",
+        "type": "Transporting",
         "level": 1
       },
       {
-        "type": "gathering",
+        "type": "Gathering",
         "level": 1
       }
     ],
@@ -811,15 +811,15 @@
     "imageWiki": "https://static.wikia.nocookie.net/palworld/images/f/ff/Gobfin_menu.png/",
     "suitability": [
       {
-        "type": "handiwork",
+        "type": "Handiwork",
         "level": 1
       },
       {
-        "type": "transporting",
+        "type": "Transporting",
         "level": 1
       },
       {
-        "type": "watering",
+        "type": "Watering",
         "level": 2
       }
     ],
@@ -840,15 +840,15 @@
     "imageWiki": "https://static.wikia.nocookie.net/palworld/images/0/08/Hangyu_menu.png/",
     "suitability": [
       {
-        "type": "handiwork",
+        "type": "Handiwork",
         "level": 1
       },
       {
-        "type": "transporting",
+        "type": "Transporting",
         "level": 2
       },
       {
-        "type": "gathering",
+        "type": "Gathering",
         "level": 1
       }
     ],
@@ -869,19 +869,19 @@
     "imageWiki": "https://static.wikia.nocookie.net/palworld/images/d/db/Mossanda_menu.png/",
     "suitability": [
       {
-        "type": "planting",
+        "type": "Planting",
         "level": 2
       },
       {
-        "type": "handiwork",
+        "type": "Handiwork",
         "level": 2
       },
       {
-        "type": "lumbering",
+        "type": "Lumbering",
         "level": 2
       },
       {
-        "type": "transporting",
+        "type": "Transporting",
         "level": 3
       }
     ],
@@ -902,7 +902,7 @@
     "imageWiki": "https://static.wikia.nocookie.net/palworld/images/f/fa/Woolipop_menu.png/",
     "suitability": [
       {
-        "type": "farming",
+        "type": "Farming",
         "level": 1
       }
     ],
@@ -923,11 +923,11 @@
     "imageWiki": "https://static.wikia.nocookie.net/palworld/images/a/a7/Caprity_menu.png/",
     "suitability": [
       {
-        "type": "planting",
+        "type": "Planting",
         "level": 2
       },
       {
-        "type": "farming",
+        "type": "Farming",
         "level": 1
       }
     ],
@@ -948,7 +948,7 @@
     "imageWiki": "https://static.wikia.nocookie.net/palworld/images/7/7f/Melpaca_menu.png/",
     "suitability": [
       {
-        "type": "farming",
+        "type": "Farming",
         "level": 1
       }
     ],
@@ -990,7 +990,7 @@
     "imageWiki": "https://static.wikia.nocookie.net/palworld/images/3/34/Nitewing_menu.png/",
     "suitability": [
       {
-        "type": "gathering",
+        "type": "Gathering",
         "level": 2
       }
     ],
@@ -1011,15 +1011,15 @@
     "imageWiki": "https://static.wikia.nocookie.net/palworld/images/7/7e/Ribbuny_menu.png/",
     "suitability": [
       {
-        "type": "handiwork",
+        "type": "Handiwork",
         "level": 1
       },
       {
-        "type": "transporting",
+        "type": "Transporting",
         "level": 1
       },
       {
-        "type": "gathering",
+        "type": "Gathering",
         "level": 1
       }
     ],
@@ -1040,19 +1040,19 @@
     "imageWiki": "https://static.wikia.nocookie.net/palworld/images/4/40/Incineram_menu.png/",
     "suitability": [
       {
-        "type": "kindling",
+        "type": "Kindling",
         "level": 1
       },
       {
-        "type": "handiwork",
+        "type": "Handiwork",
         "level": 2
       },
       {
-        "type": "transporting",
+        "type": "Transporting",
         "level": 2
       },
       {
-        "type": "mining",
+        "type": "Mining",
         "level": 1
       }
     ],
@@ -1073,7 +1073,7 @@
     "imageWiki": "https://static.wikia.nocookie.net/palworld/images/7/7e/Cinnamoth_menu.png/",
     "suitability": [
       {
-        "type": "planting",
+        "type": "Planting",
         "level": 2
       },
       {
@@ -1098,11 +1098,11 @@
     "imageWiki": "https://static.wikia.nocookie.net/palworld/images/f/f5/Arsox_menu.png/",
     "suitability": [
       {
-        "type": "kindling",
+        "type": "Kindling",
         "level": 2
       },
       {
-        "type": "lumbering",
+        "type": "Lumbering",
         "level": 1
       }
     ],
@@ -1123,15 +1123,15 @@
     "imageWiki": "https://static.wikia.nocookie.net/palworld/images/3/32/Dumud_menu.png/",
     "suitability": [
       {
-        "type": "watering",
+        "type": "Watering",
         "level": 1
       },
       {
-        "type": "mining",
+        "type": "Mining",
         "level": 2
       },
       {
-        "type": "transporting",
+        "type": "Transporting",
         "level": 1
       }
     ],
@@ -1152,7 +1152,7 @@
     "imageWiki": "https://static.wikia.nocookie.net/palworld/images/f/f6/Cawgnito_menu.png/",
     "suitability": [
       {
-        "type": "lumbering",
+        "type": "Lumbering",
         "level": 1
       }
     ],
@@ -1173,15 +1173,15 @@
     "imageWiki": "https://static.wikia.nocookie.net/palworld/images/0/09/Leezpunk_menu.png/",
     "suitability": [
       {
-        "type": "handiwork",
+        "type": "Handiwork",
         "level": 1
       },
       {
-        "type": "gathering",
+        "type": "Gathering",
         "level": 1
       },
       {
-        "type": "transporting",
+        "type": "Transporting",
         "level": 1
       }
     ],
@@ -1202,7 +1202,7 @@
     "imageWiki": "https://static.wikia.nocookie.net/palworld/images/0/00/Loupmoon_menu.png/",
     "suitability": [
       {
-        "type": "handiwork",
+        "type": "Handiwork",
         "level": 2
       }
     ],
@@ -1223,7 +1223,7 @@
     "imageWiki": "https://static.wikia.nocookie.net/palworld/images/0/08/Galeclaw_menu.png/",
     "suitability": [
       {
-        "type": "gathering",
+        "type": "Gathering",
         "level": 2
       }
     ],
@@ -1244,15 +1244,15 @@
     "imageWiki": "https://static.wikia.nocookie.net/palworld/images/b/bb/Robinquill_menu.png/",
     "suitability": [
       {
-        "type": "planting",
+        "type": "Planting",
         "level": 1
       },
       {
-        "type": "handiwork",
+        "type": "Handiwork",
         "level": 2
       },
       {
-        "type": "lumbering",
+        "type": "Lumbering",
         "level": 1
       },
       {
@@ -1260,11 +1260,11 @@
         "level": 1
       },
       {
-        "type": "transporting",
+        "type": "Transporting",
         "level": 2
       },
       {
-        "type": "gathering",
+        "type": "Gathering",
         "level": 2
       }
     ],
@@ -1285,15 +1285,15 @@
     "imageWiki": "https://static.wikia.nocookie.net/palworld/images/b/b5/Gorirat_menu.png/",
     "suitability": [
       {
-        "type": "handiwork",
+        "type": "Handiwork",
         "level": 1
       },
       {
-        "type": "lumbering",
+        "type": "Lumbering",
         "level": 2
       },
       {
-        "type": "transporting",
+        "type": "Transporting",
         "level": 3
       }
     ],
@@ -1314,15 +1314,15 @@
     "imageWiki": "https://static.wikia.nocookie.net/palworld/images/7/7b/Beegarde_menu.png/",
     "suitability": [
       {
-        "type": "planting",
+        "type": "Planting",
         "level": 1
       },
       {
-        "type": "handiwork",
+        "type": "Handiwork",
         "level": 1
       },
       {
-        "type": "lumbering",
+        "type": "Lumbering",
         "level": 1
       },
       {
@@ -1330,15 +1330,15 @@
         "level": 1
       },
       {
-        "type": "transporting",
+        "type": "Transporting",
         "level": 2
       },
       {
-        "type": "gathering",
+        "type": "Gathering",
         "level": 1
       },
       {
-        "type": "farming",
+        "type": "Farming",
         "level": 1
       }
     ],
@@ -1359,15 +1359,15 @@
     "imageWiki": "https://static.wikia.nocookie.net/palworld/images/a/a0/Elizabee_menu.png/",
     "suitability": [
       {
-        "type": "planting",
+        "type": "Planting",
         "level": 2
       },
       {
-        "type": "handiwork",
+        "type": "Handiwork",
         "level": 2
       },
       {
-        "type": "lumbering",
+        "type": "Lumbering",
         "level": 1
       },
       {
@@ -1375,7 +1375,7 @@
         "level": 2
       },
       {
-        "type": "gathering",
+        "type": "Gathering",
         "level": 2
       }
     ],
@@ -1396,7 +1396,7 @@
     "imageWiki": "https://static.wikia.nocookie.net/palworld/images/c/c3/Grintale_menu.png/",
     "suitability": [
       {
-        "type": "gathering",
+        "type": "Gathering",
         "level": 2
       }
     ],
@@ -1417,11 +1417,11 @@
     "imageWiki": "https://static.wikia.nocookie.net/palworld/images/b/b5/Swee_menu.png/",
     "suitability": [
       {
-        "type": "gathering",
+        "type": "Gathering",
         "level": 1
       },
       {
-        "type": "cooling",
+        "type": "Cooling",
         "level": 1
       }
     ],
@@ -1442,11 +1442,11 @@
     "imageWiki": "https://static.wikia.nocookie.net/palworld/images/f/f3/Sweepa_menu.png/",
     "suitability": [
       {
-        "type": "gathering",
+        "type": "Gathering",
         "level": 2
       },
       {
-        "type": "cooling",
+        "type": "Cooling",
         "level": 2
       }
     ],
@@ -1467,11 +1467,11 @@
     "imageWiki": "https://static.wikia.nocookie.net/palworld/images/4/49/Chillet_menu.png/",
     "suitability": [
       {
-        "type": "gathering",
+        "type": "Gathering",
         "level": 1
       },
       {
-        "type": "cooling",
+        "type": "Cooling",
         "level": 1
       }
     ],
@@ -1496,7 +1496,7 @@
         "level": 2
       },
       {
-        "type": "lumbering",
+        "type": "Lumbering",
         "level": 1
       }
     ],
@@ -1517,7 +1517,7 @@
     "imageWiki": "https://static.wikia.nocookie.net/palworld/images/2/21/Foxcicle_menu.png/",
     "suitability": [
       {
-        "type": "cooling",
+        "type": "Cooling",
         "level": 2
       }
     ],
@@ -1538,11 +1538,11 @@
     "imageWiki": "https://static.wikia.nocookie.net/palworld/images/e/e6/Pyrin_menu.png/",
     "suitability": [
       {
-        "type": "kindling",
+        "type": "Kindling",
         "level": 2
       },
       {
-        "type": "lumbering",
+        "type": "Lumbering",
         "level": 1
       }
     ],
@@ -1563,11 +1563,11 @@
     "imageWiki": "https://static.wikia.nocookie.net/palworld/images/c/c1/Reindrix_menu.png/",
     "suitability": [
       {
-        "type": "lumbering",
+        "type": "Lumbering",
         "level": 2
       },
       {
-        "type": "cooling",
+        "type": "Cooling",
         "level": 2
       }
     ],
@@ -1609,7 +1609,7 @@
     "imageWiki": "https://static.wikia.nocookie.net/palworld/images/6/6b/Kitsun_menu.png/",
     "suitability": [
       {
-        "type": "kindling",
+        "type": "Kindling",
         "level": 2
       }
     ],
@@ -1634,11 +1634,11 @@
         "level": 1
       },
       {
-        "type": "handiwork",
+        "type": "Handiwork",
         "level": 1
       },
       {
-        "type": "transporting",
+        "type": "Transporting",
         "level": 1
       }
     ],
@@ -1659,15 +1659,15 @@
     "imageWiki": "https://static.wikia.nocookie.net/palworld/images/3/38/Lunaris_menu.png/",
     "suitability": [
       {
-        "type": "gathering",
+        "type": "Gathering",
         "level": 1
       },
       {
-        "type": "transporting",
+        "type": "Transporting",
         "level": 1
       },
       {
-        "type": "handiwork",
+        "type": "Handiwork",
         "level": 3
       }
     ],
@@ -1688,11 +1688,11 @@
     "imageWiki": "https://static.wikia.nocookie.net/palworld/images/b/b7/Dinossom_menu.png/",
     "suitability": [
       {
-        "type": "planting",
+        "type": "Planting",
         "level": 2
       },
       {
-        "type": "lumbering",
+        "type": "Lumbering",
         "level": 2
       }
     ],
@@ -1713,7 +1713,7 @@
     "imageWiki": "https://static.wikia.nocookie.net/palworld/images/1/1d/Surfent_menu.png/",
     "suitability": [
       {
-        "type": "watering",
+        "type": "Watering",
         "level": 1
       }
     ],
@@ -1734,11 +1734,11 @@
     "imageWiki": "https://static.wikia.nocookie.net/palworld/images/3/32/Maraith_menu.png/",
     "suitability": [
       {
-        "type": "gathering",
+        "type": "Gathering",
         "level": 2
       },
       {
-        "type": "mining",
+        "type": "Mining",
         "level": 1
       }
     ],
@@ -1759,7 +1759,7 @@
     "imageWiki": "https://static.wikia.nocookie.net/palworld/images/5/5b/Digtoise_menu.png/",
     "suitability": [
       {
-        "type": "mining",
+        "type": "Mining",
         "level": 3
       }
     ],
@@ -1780,15 +1780,15 @@
     "imageWiki": "https://static.wikia.nocookie.net/palworld/images/f/f2/Tombat_menu.png/",
     "suitability": [
       {
-        "type": "gathering",
+        "type": "Gathering",
         "level": 2
       },
       {
-        "type": "mining",
+        "type": "Mining",
         "level": 2
       },
       {
-        "type": "transporting",
+        "type": "Transporting",
         "level": 2
       }
     ],
@@ -1809,7 +1809,7 @@
     "imageWiki": "https://static.wikia.nocookie.net/palworld/images/c/c8/Lovander_menu.png/",
     "suitability": [
       {
-        "type": "handiwork",
+        "type": "Handiwork",
         "level": 2
       },
       {
@@ -1817,11 +1817,11 @@
         "level": 2
       },
       {
-        "type": "transporting",
+        "type": "Transporting",
         "level": 2
       },
       {
-        "type": "mining",
+        "type": "Mining",
         "level": 1
       }
     ],
@@ -1842,19 +1842,19 @@
     "imageWiki": "https://static.wikia.nocookie.net/palworld/images/2/20/Flambelle_menu.png/",
     "suitability": [
       {
-        "type": "kindling",
+        "type": "Kindling",
         "level": 1
       },
       {
-        "type": "handiwork",
+        "type": "Handiwork",
         "level": 1
       },
       {
-        "type": "transporting",
+        "type": "Transporting",
         "level": 1
       },
       {
-        "type": "farming",
+        "type": "Farming",
         "level": 1
       }
     ],
@@ -1875,11 +1875,11 @@
     "imageWiki": "https://static.wikia.nocookie.net/palworld/images/e/ea/Vanwyrm_menu.png/",
     "suitability": [
       {
-        "type": "kindling",
+        "type": "Kindling",
         "level": 1
       },
       {
-        "type": "transporting",
+        "type": "Transporting",
         "level": 3
       }
     ],
@@ -1900,23 +1900,23 @@
     "imageWiki": "https://static.wikia.nocookie.net/palworld/images/7/73/Bushi_menu.png/",
     "suitability": [
       {
-        "type": "kindling",
+        "type": "Kindling",
         "level": 2
       },
       {
-        "type": "handiwork",
+        "type": "Handiwork",
         "level": 1
       },
       {
-        "type": "transporting",
+        "type": "Transporting",
         "level": 2
       },
       {
-        "type": "lumbering",
+        "type": "Lumbering",
         "level": 3
       },
       {
-        "type": "gathering",
+        "type": "Gathering",
         "level": 1
       }
     ],
@@ -1937,7 +1937,7 @@
     "imageWiki": "https://static.wikia.nocookie.net/palworld/images/a/a0/Beakon_menu.png/",
     "suitability": [
       {
-        "type": "gathering",
+        "type": "Gathering",
         "level": 1
       },
       {
@@ -1945,7 +1945,7 @@
         "level": 2
       },
       {
-        "type": "transporting",
+        "type": "Transporting",
         "level": 3
       }
     ],
@@ -1966,11 +1966,11 @@
     "imageWiki": "https://static.wikia.nocookie.net/palworld/images/d/dd/Ragnahawk_menu.png/",
     "suitability": [
       {
-        "type": "kindling",
+        "type": "Kindling",
         "level": 3
       },
       {
-        "type": "transporting",
+        "type": "Transporting",
         "level": 3
       }
     ],
@@ -1995,11 +1995,11 @@
         "level": 2
       },
       {
-        "type": "handiwork",
+        "type": "Handiwork",
         "level": 2
       },
       {
-        "type": "transporting",
+        "type": "Transporting",
         "level": 2
       }
     ],
@@ -2020,15 +2020,15 @@
     "imageWiki": "https://static.wikia.nocookie.net/palworld/images/8/85/Wixen_menu.png/",
     "suitability": [
       {
-        "type": "kindling",
+        "type": "Kindling",
         "level": 2
       },
       {
-        "type": "handiwork",
+        "type": "Handiwork",
         "level": 3
       },
       {
-        "type": "transporting",
+        "type": "Transporting",
         "level": 2
       }
     ],
@@ -2049,23 +2049,23 @@
     "imageWiki": "https://static.wikia.nocookie.net/palworld/images/4/43/Verdash_menu.png/",
     "suitability": [
       {
-        "type": "gathering",
+        "type": "Gathering",
         "level": 3
       },
       {
-        "type": "lumbering",
+        "type": "Lumbering",
         "level": 2
       },
       {
-        "type": "handiwork",
+        "type": "Handiwork",
         "level": 3
       },
       {
-        "type": "planting",
+        "type": "Planting",
         "level": 2
       },
       {
-        "type": "transporting",
+        "type": "Transporting",
         "level": 2
       }
     ],
@@ -2086,11 +2086,11 @@
     "imageWiki": "https://static.wikia.nocookie.net/palworld/images/2/24/Vaelet_menu.png/",
     "suitability": [
       {
-        "type": "gathering",
+        "type": "Gathering",
         "level": 2
       },
       {
-        "type": "handiwork",
+        "type": "Handiwork",
         "level": 2
       },
       {
@@ -2098,11 +2098,11 @@
         "level": 3
       },
       {
-        "type": "planting",
+        "type": "Planting",
         "level": 2
       },
       {
-        "type": "transporting",
+        "type": "Transporting",
         "level": 1
       }
     ],
@@ -2127,11 +2127,11 @@
         "level": 2
       },
       {
-        "type": "cooling",
+        "type": "Cooling",
         "level": 2
       },
       {
-        "type": "farming",
+        "type": "Farming",
         "level": 1
       }
     ],
@@ -2152,7 +2152,7 @@
     "imageWiki": "https://static.wikia.nocookie.net/palworld/images/a/a6/Elphidran_menu.png/",
     "suitability": [
       {
-        "type": "lumbering",
+        "type": "Lumbering",
         "level": 2
       }
     ],
@@ -2173,7 +2173,7 @@
     "imageWiki": "https://static.wikia.nocookie.net/palworld/images/1/1b/Kelpsea_menu.png/",
     "suitability": [
       {
-        "type": "watering",
+        "type": "Watering",
         "level": 1
       }
     ],
@@ -2194,7 +2194,7 @@
     "imageWiki": "https://static.wikia.nocookie.net/palworld/images/a/a0/Azurobe_menu.png/",
     "suitability": [
       {
-        "type": "watering",
+        "type": "Watering",
         "level": 3
       }
     ],
@@ -2215,15 +2215,15 @@
     "imageWiki": "https://static.wikia.nocookie.net/palworld/images/9/9d/Cryolinx_menu.png/",
     "suitability": [
       {
-        "type": "handiwork",
+        "type": "Handiwork",
         "level": 1
       },
       {
-        "type": "lumbering",
+        "type": "Lumbering",
         "level": 2
       },
       {
-        "type": "cooling",
+        "type": "Cooling",
         "level": 3
       }
     ],
@@ -2244,11 +2244,11 @@
     "imageWiki": "https://static.wikia.nocookie.net/palworld/images/3/33/Blazehowl_menu.png/",
     "suitability": [
       {
-        "type": "kindling",
+        "type": "Kindling",
         "level": 3
       },
       {
-        "type": "lumbering",
+        "type": "Lumbering",
         "level": 2
       }
     ],
@@ -2269,11 +2269,11 @@
     "imageWiki": "https://static.wikia.nocookie.net/palworld/images/0/01/Relaxaurus_menu.png/",
     "suitability": [
       {
-        "type": "watering",
+        "type": "Watering",
         "level": 2
       },
       {
-        "type": "transporting",
+        "type": "Transporting",
         "level": 1
       }
     ],
@@ -2294,7 +2294,7 @@
     "imageWiki": "https://static.wikia.nocookie.net/palworld/images/b/bd/Broncherry_menu.png/",
     "suitability": [
       {
-        "type": "planting",
+        "type": "Planting",
         "level": 3
       }
     ],
@@ -2315,15 +2315,15 @@
     "imageWiki": "https://static.wikia.nocookie.net/palworld/images/2/28/Petallia_menu.png/",
     "suitability": [
       {
-        "type": "planting",
+        "type": "Planting",
         "level": 3
       },
       {
-        "type": "handiwork",
+        "type": "Handiwork",
         "level": 2
       },
       {
-        "type": "gathering",
+        "type": "Gathering",
         "level": 2
       },
       {
@@ -2331,7 +2331,7 @@
         "level": 2
       },
       {
-        "type": "transporting",
+        "type": "Transporting",
         "level": 1
       }
     ],
@@ -2352,18 +2352,18 @@
     "imageWiki": "https://static.wikia.nocookie.net/palworld/images/d/d0/Reptyro_menu.png/",
     "suitability": [
       {
-        "type": "kindling",
+        "type": "Kindling",
         "level": 3
       },
       {
-        "type": "mining",
+        "type": "Mining",
         "level": 3
       }
     ],
     "drops": ["Flame Organ"],
     "aura": {
       "name": "Ore-loving Beast",
-      "description": "A ridden skill. Increases the efficiency of mining ores while riding."
+      "description": "A ridden skill. Increases the efficiency of Mining ores while riding."
     },
     "description": "Magma-like blood runs throughout its body. If a large amount of water is thrown on it, this water rapidly heats, causing an immense vapor explosion."
   },
@@ -2377,7 +2377,7 @@
     "imageWiki": "https://static.wikia.nocookie.net/palworld/images/9/9d/Kingpaca_menu.png/",
     "suitability": [
       {
-        "type": "gathering",
+        "type": "Gathering",
         "level": 1
       }
     ],
@@ -2398,22 +2398,22 @@
     "imageWiki": "https://static.wikia.nocookie.net/palworld/images/5/5e/Mammorest_menu.png/",
     "suitability": [
       {
-        "type": "planting",
+        "type": "Planting",
         "level": 2
       },
       {
-        "type": "lumbering",
+        "type": "Lumbering",
         "level": 2
       },
       {
-        "type": "mining",
+        "type": "Mining",
         "level": 2
       }
     ],
     "drops": ["High Quality Pal Oil", "Leather", "Mammorest Meat"],
     "aura": {
       "name": "Gaia Crusher",
-      "description": "Can be ridden. Improves efficiency of cutting trees and mining ores while mounted."
+      "description": "Can be ridden. Improves efficiency of cutting trees and Mining ores while mounted."
     },
     "description": "The vegetation on its back varies between individuals. There is a long history of appreciating this veritable garden of a Pal, and there are even Mammorest pruning specialists."
   },
@@ -2427,19 +2427,19 @@
     "imageWiki": "https://static.wikia.nocookie.net/palworld/images/0/0e/Wumpo_menu.png/",
     "suitability": [
       {
-        "type": "handiwork",
+        "type": "Handiwork",
         "level": 2
       },
       {
-        "type": "lumbering",
+        "type": "Lumbering",
         "level": 3
       },
       {
-        "type": "cooling",
+        "type": "Cooling",
         "level": 2
       },
       {
-        "type": "transporting",
+        "type": "Transporting",
         "level": 4
       }
     ],
@@ -2460,19 +2460,19 @@
     "imageWiki": "https://static.wikia.nocookie.net/palworld/images/a/a7/Warsect_menu.png/",
     "suitability": [
       {
-        "type": "planting",
+        "type": "Planting",
         "level": 1
       },
       {
-        "type": "handiwork",
+        "type": "Handiwork",
         "level": 1
       },
       {
-        "type": "lumbering",
+        "type": "Lumbering",
         "level": 3
       },
       {
-        "type": "transporting",
+        "type": "Transporting",
         "level": 3
       }
     ],
@@ -2493,7 +2493,7 @@
     "imageWiki": "https://static.wikia.nocookie.net/palworld/images/6/68/Fenglope_menu.png/",
     "suitability": [
       {
-        "type": "lumbering",
+        "type": "Lumbering",
         "level": 2
       }
     ],
@@ -2535,19 +2535,19 @@
     "imageWiki": "https://static.wikia.nocookie.net/palworld/images/d/d9/Quivern_menu.png/",
     "suitability": [
       {
-        "type": "handiwork",
+        "type": "Handiwork",
         "level": 1
       },
       {
-        "type": "transporting",
+        "type": "Transporting",
         "level": 3
       },
       {
-        "type": "gathering",
+        "type": "Gathering",
         "level": 2
       },
       {
-        "type": "mining",
+        "type": "Mining",
         "level": 2
       }
     ],
@@ -2568,11 +2568,11 @@
     "imageWiki": "https://static.wikia.nocookie.net/palworld/images/e/ee/Blazamut_menu.png/",
     "suitability": [
       {
-        "type": "kindling",
+        "type": "Kindling",
         "level": 3
       },
       {
-        "type": "mining",
+        "type": "Mining",
         "level": 4
       }
     ],
@@ -2593,7 +2593,7 @@
     "imageWiki": "https://static.wikia.nocookie.net/palworld/images/3/3c/Helzephyr_menu.png/",
     "suitability": [
       {
-        "type": "transporting",
+        "type": "Transporting",
         "level": 3
       }
     ],
@@ -2614,11 +2614,11 @@
     "imageWiki": "https://static.wikia.nocookie.net/palworld/images/d/d4/Astegon_menu.png/",
     "suitability": [
       {
-        "type": "handiwork",
+        "type": "Handiwork",
         "level": 1
       },
       {
-        "type": "mining",
+        "type": "Mining",
         "level": 4
       }
     ],
@@ -2639,11 +2639,11 @@
     "imageWiki": "https://static.wikia.nocookie.net/palworld/images/5/57/Menasting_menu.png/",
     "suitability": [
       {
-        "type": "lumbering",
+        "type": "Lumbering",
         "level": 2
       },
       {
-        "type": "mining",
+        "type": "Mining",
         "level": 3
       }
     ],
@@ -2664,15 +2664,15 @@
     "imageWiki": "https://static.wikia.nocookie.net/palworld/images/2/21/Anubis_menu.png/",
     "suitability": [
       {
-        "type": "handiwork",
+        "type": "Handiwork",
         "level": 4
       },
       {
-        "type": "mining",
+        "type": "Mining",
         "level": 3
       },
       {
-        "type": "transporting",
+        "type": "Transporting",
         "level": 2
       }
     ],
@@ -2693,7 +2693,7 @@
     "imageWiki": "https://static.wikia.nocookie.net/palworld/images/8/8e/Jormuntide_menu.png/",
     "suitability": [
       {
-        "type": "watering",
+        "type": "Watering",
         "level": 4
       }
     ],
@@ -2714,7 +2714,7 @@
     "imageWiki": "https://static.wikia.nocookie.net/palworld/images/b/b4/Suzaku_menu.png/",
     "suitability": [
       {
-        "type": "kindling",
+        "type": "Kindling",
         "level": 3
       }
     ],
@@ -2739,15 +2739,15 @@
         "level": 3
       },
       {
-        "type": "handiwork",
+        "type": "Handiwork",
         "level": 2
       },
       {
-        "type": "transporting",
+        "type": "Transporting",
         "level": 3
       },
       {
-        "type": "lumbering",
+        "type": "Lumbering",
         "level": 2
       }
     ],
@@ -2768,11 +2768,11 @@
     "imageWiki": "https://static.wikia.nocookie.net/palworld/images/5/5e/Lyleen_menu.png/",
     "suitability": [
       {
-        "type": "planting",
+        "type": "Planting",
         "level": 4
       },
       {
-        "type": "handiwork",
+        "type": "Handiwork",
         "level": 3
       },
       {
@@ -2780,7 +2780,7 @@
         "level": 3
       },
       {
-        "type": "gathering",
+        "type": "Gathering",
         "level": 2
       }
     ],
@@ -2805,11 +2805,11 @@
     "imageWiki": "https://static.wikia.nocookie.net/palworld/images/9/99/Faleris_menu.png/",
     "suitability": [
       {
-        "type": "kindling",
+        "type": "Kindling",
         "level": 3
       },
       {
-        "type": "transporting",
+        "type": "Transporting",
         "level": 3
       }
     ],
@@ -2834,11 +2834,11 @@
         "level": 4
       },
       {
-        "type": "handiwork",
+        "type": "Handiwork",
         "level": 2
       },
       {
-        "type": "transporting",
+        "type": "Transporting",
         "level": 4
       }
     ],
@@ -2859,7 +2859,7 @@
     "imageWiki": "https://static.wikia.nocookie.net/palworld/images/0/0c/Shadowbeak_menu.png/",
     "suitability": [
       {
-        "type": "gathering",
+        "type": "Gathering",
         "level": 1
       }
     ],
@@ -2880,11 +2880,11 @@
     "imageWiki": "https://static.wikia.nocookie.net/palworld/images/0/09/Paladius_menu.png/",
     "suitability": [
       {
-        "type": "mining",
+        "type": "Mining",
         "level": 2
       },
       {
-        "type": "lumbering",
+        "type": "Lumbering",
         "level": 2
       }
     ],
@@ -2905,11 +2905,11 @@
     "imageWiki": "https://static.wikia.nocookie.net/palworld/images/1/13/Necromus_menu.png/",
     "suitability": [
       {
-        "type": "mining",
+        "type": "Mining",
         "level": 2
       },
       {
-        "type": "lumbering",
+        "type": "Lumbering",
         "level": 2
       }
     ],
@@ -2930,7 +2930,7 @@
     "imageWiki": "https://static.wikia.nocookie.net/palworld/images/0/00/Frostallion_menu.png/",
     "suitability": [
       {
-        "type": "cooling",
+        "type": "Cooling",
         "level": 4
       }
     ],
@@ -2951,7 +2951,7 @@
     "imageWiki": "https://static.wikia.nocookie.net/palworld/images/e/e5/Jetragon_menu.png/",
     "suitability": [
       {
-        "type": "gathering",
+        "type": "Gathering",
         "level": 3
       }
     ],
