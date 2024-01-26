@@ -1,10 +1,10 @@
 import React, { useState } from "react";
-import pals from "../mock/pals.json";
+import palsData from "../mock/pals.json";
 import { Card } from "./components/Card";
 import { ViewCard } from "./components/ViewCard";
 
 export const ListPals = () => {
-  const { pals } = pals;
+  const pals = palsData;
   const [selectedPal, setSelectedPal] = useState(null)
   return (
     <>
@@ -21,7 +21,7 @@ export const ListPals = () => {
           <div className="listPals__cards">
             {pals.map((pal) => (
               <Card
-                key={pal.key}
+                key={pal.id}
                 pal={pal}
                 onClick={() => setSelectedPal(pal)}
               />
