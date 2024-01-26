@@ -1,34 +1,35 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import React, { useState } from "react";
+import pals from "../mock/pals.json";
+import { Card } from "./components/Card";
+import { ViewCard } from "./components/ViewCard";
 
-function App() {
-  const [count, setCount] = useState(0)
-
+export const ListPals = () => {
+  const { pals } = pals;
+  const [selectedPal, setSelectedPal] = useState(null)
   return (
     <>
-      <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Hola mundo</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p>
+      <header className="header">
+        <img src="" alt="" />
+        <h1>Paldex</h1>
+      </header>
+      <main>
+        <div className="search">
+          <input type="text" />
+          <button className="search__btn">🔍</button>
+        </div>
+        <div className="listPals">
+          <div className="listPals__cards">
+            {pals.map((pal) => (
+              <Card
+                key={pal.key}
+                pal={pal}
+                onClick={() => setSelectedPal(pal)}
+              />
+            ))}
+          </div>
+          {selectedPal && <ViewCard pal={selectedPal} />}
+        </div>
+      </main>
     </>
-  )
-}
-
-export default App
+  );
+};
