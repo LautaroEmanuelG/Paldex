@@ -1,0 +1,99 @@
+:root {
+    --background-card: #ffffff;
+    --text: #242424;
+    --text-number: #a1a1a1;
+    --box-shadow-card: #ededed 0 10px 10px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    flex: 0.5;
+    background-color: var(--background-card);
+    box-shadow: var(--box-shadow-card);
+    border-radius: 20px;
+    min-width: 20%;
+    margin: 10px;
+    margin-top: 60px;
+    padding: 20px;
+    padding-top: 40px;
+    position: relative;
+    cursor: pointer;
+    border: 2px solid white;
+    transition-duration: 100ms;
+    justify-content: center;
+    align-items: center;
+}
+
+.card__img {
+    aspect-ratio: 1/1;
+    width: 80px;
+    border-radius: 25px;
+    position: absolute;
+    top: -55px;
+    transition-duration: 100ms;
+}
+
+.card__number {
+    color: var(--text-number);
+    font-size: 0.8rem;
+    font-weight: 500;
+    margin: 0;
+}
+
+.card__title {
+    color: var(--text);
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin: 0;
+}
+
+.card__types {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    text-transform: capitalize;
+}
+
+.card__type {
+    margin-top: 10px;
+    border-radius: 5px;
+    padding: 0 6px;
+}
+
+.neutral {
+    background-color: #a1a1a1;
+}
+
+.grass {
+    background-color: #78c850;
+}
+
+.electric {
+    background-color: #f8d030;
+}
+
+.fire {
+    background-color: #f08030;
+}
+
+.water {
+    background-color: #6890f0;
+}
+
+.ice {
+    background-color: #98d8d8;
+}
+
+.ground {
+    background-color: #e0c068;
+}
+
+.dark {
+    background-color: #705848;
+}
+
+.dragon {
+    background-color: #7038f8;
+}

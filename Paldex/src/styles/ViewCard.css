@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@200;300;400;500;600&display=swap');
+
+:root {
+    --background-card: #ffffff;
+    --text: #242424;
+    --text-number: #a1a1a1;
+    --text-light: #888888;
+    --box-shadow-card: #ededed 0 10px 10px;
+    --background-box: #ededed;
+}
+
+.viewCard {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 100vh;
+    /* background-color: var(--background-card); */
+    align-items: center;
+    /* margin: 75px 20px 0; */
+    margin-top: 50px;
+    position: sticky;
+    top: 70px;
+    padding: 30px 15px 0;
+    border-radius: 25px;
+    /* box-shadow: var(--box-shadow-card); */
+    gap: 5px;
+    z-index: 1;
+    transition-duration: 100ms;
+}
+
+.viewCard__box {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 80vh;
+    background-color: var(--background-card);
+    align-items: center;
+    position: sticky;
+    padding: 75px 15px 0;
+    border-radius: 25px;
+    box-shadow: var(--box-shadow-card);
+    gap: 5px;
+    z-index: 1;
+    transition-duration: 100ms;
+    overflow-y: scroll;
+    
+}
+
+.viewCard h4 {
+    color: var(--text);
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin: 0;
+    text-align: center;
+}
+
+.viewCard span {
+    color: var(--text-light);
+    font-size: 1.1rem;
+    font-weight: 400;
+    margin: 0;
+    text-align: center;
+}
+
+.viewCard__img {
+    aspect-ratio: 1/1;
+    width: 120px;
+    border-radius: 25px;
+    position: absolute;
+    top: -55px;
+    transition-duration: 100ms;
+    z-index: 3;
+}
+
+.viewCard__number {
+    color: var(--text-number);
+    font-size: 0.8rem;
+    font-weight: 500;
+    margin: 0;
+}
+
+.viewCard__title {
+    color: var(--text);
+    font-size: 2rem;
+    font-weight: 600;
+    margin: 0;
+}
+
+.viewCard__types {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    text-transform: capitalize;
+}
+
+.viewCard__type {
+    margin: 5px 0;
+    border-radius: 5px;
+    padding: 0 6px;
+    color: var(--background-card);
+}
+
+.viewCard__entry-text {
+    color: var(--text-number);
+    font-size: 0.8rem;
+    font-weight: 500;
+    margin: 0;
+}
+
+.viewCard__suitability {
+    display: flex;
+    gap: 10px;
+    flex-flow: wrap row;
+    justify-content: center;
+    align-items: center;
+}
+
+.viewCard__suitability-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    background-color: var(--background-box);
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+.viewCard__drops {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;    
+}
+
+.viewCard__drops {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    flex-flow: wrap row;
+}
+
+.viewCard__drops-text{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    background-color: var(--background-box);
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+.viewCard__aura {
+    text-align: center;
+    margin: 0 10px 10px;
+}
+
+.viewCard__aura-name {
+    color: var(--text);
+    font-size: 1rem;
+    font-weight: 500;
+    margin: 0;
+    display: inline;
+}
+
+.viewCard__aura-description {
+    display: inline;
+}
