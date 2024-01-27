@@ -28,12 +28,21 @@ export const ListPals = () => {
     "Dark",
     "Ground",
     "Dragon",
+    "",
   ];
-  
+
   const [searchTerm, setSearchTerm] = useState("");
 
-  const filteredPals = pals.filter(pal =>
-    pal.name.toLowerCase().includes(searchTerm.toLowerCase())
+  // const filteredPals = pals.filter(pal =>
+  //   pal.name.toLowerCase().includes(searchTerm.toLowerCase())
+  // );
+
+  const [selectedType, setSelectedType] = useState("");
+
+  const filteredPals = pals.filter(
+    (pal) =>
+      pal.name.toLowerCase().includes(searchTerm.toLowerCase()) &&
+      (selectedType ? pal.types.includes(selectedType.toLowerCase()) : true)
   );
 
   return (
@@ -41,7 +50,7 @@ export const ListPals = () => {
       <section className="list">
         <nav className="list__nav">
           <div className="search">
-          <input
+            <input
               className="search__input"
               type="text"
               value={searchTerm}
@@ -53,7 +62,11 @@ export const ListPals = () => {
           </div>
           <div className="types">
             {types.map((type) => (
-              <span className="type" key={type}>
+              <span
+                className="type"
+                key={type}
+                onClick={() => setSelectedType(type)}
+              >
                 <img
                   src={`./src/assets/images/elements/${type}_icon_mini.webp`}
                   alt=""
