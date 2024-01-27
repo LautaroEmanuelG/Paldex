@@ -1,0 +1,41 @@
+@media screen and (max-width: 1024px) {
+    :root {
+        --display-card: flex;
+        overflow-y: scroll;
+        scrollbar-width: none;
+    }
+
+    .viewCard {
+        display: var(--display-card);
+        position: fixed;
+        z-index: 5;
+        left: 50%;
+        transform: translateX(-50%);
+        margin: 0;
+        height: 100%;
+        position: fixed;
+        width: 100%;
+        z-index: 1;
+        border-radius: 50px;
+    }
+
+    .viewCard__box {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        padding-bottom: 15%;
+        top: -35px;
+        padding-top: 45px;
+        z-index: 2;
+        border-radius: 50px 50px 0 0;
+    }
+
+    .viewCard__img {
+        z-index: 6;
+    }
+
+    .viewCard__background {
+        display: var(--display-card);
+        top: -100px;
+    }
+}

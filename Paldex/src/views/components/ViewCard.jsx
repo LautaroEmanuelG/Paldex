@@ -47,6 +47,7 @@ export const ViewCard = ({ pal }) => {
           </span>
         </section>
       </section>
+      <div className={`viewCard__background ${pal.types[0]}`}></div>
     </article>
   );
 };

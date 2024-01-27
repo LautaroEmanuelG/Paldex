@@ -5,6 +5,7 @@ import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom";
 import "./styles/App.css";
 import "./styles/Card.css";
 import "./styles/ViewCard.css";
+import "./styles/MediaQuerys.css";
 import { ListPals } from "./views/ListPals";
 import { Layout } from "./views/Layout";
 import { AlternativeForm } from "./views/AlternativeForm";
