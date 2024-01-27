@@ -5,6 +5,14 @@
         scrollbar-width: none;
     }
 
+    .list__nav {
+        flex-direction: column;
+        gap: 15px;
+    }
+    .types {
+        justify-content: center;
+    }
+
     .viewCard__close {
         display: var(--display-card);
         position: absolute;
