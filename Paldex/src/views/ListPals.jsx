@@ -68,7 +68,7 @@ export const ListPals = () => {
                 onClick={() => setSelectedType(type)}
               >
                 <img
-                  src={`/src/assets/images/elements/${type}_icon_mini.webp`}
+                  src={`/images/elements/${type}_icon_mini.webp`}
                   alt=""
                 />
               </span>
