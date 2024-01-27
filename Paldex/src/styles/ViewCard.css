@@ -41,7 +41,7 @@
     align-items: center;
     margin: 60px 15px 0;
     width: 500px;
-    height: fit-content;
+    height: 90vh;
     background-color: var(--background-card);
     box-shadow: var(--box-shadow-card);
     border-radius: 25px 25px 0 0;
@@ -59,6 +59,7 @@
     background-color: var(--background-card);
     overflow-y: scroll;
     scrollbar-width: none;
+    padding-bottom: 15%;
 }
 
 .viewCard h4 {
