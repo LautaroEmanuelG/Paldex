@@ -7,7 +7,18 @@ import { SVGsearch } from "../assets/SVGsearch";
 export const ListPals = () => {
   const pals = palsData;
   const randomPal = pals[Math.floor(Math.random() * pals.length)];
-  const [selectedPal, setSelectedPal] = useState(randomPal);
+  // const [selectedPal, setSelectedPal] = useState(randomPal);
+
+  const [selectedPal, setSelectedPal] = useState(null);
+
+  const handleCardClick = (pal) => {
+    setSelectedPal(pal);
+  };
+
+  const handleClose = () => {
+    setSelectedPal(null);
+  };
+
   return (
     <>
       <section className="list">
@@ -29,11 +40,12 @@ export const ListPals = () => {
         </nav>
         <div className="listPals">
           {pals.map((pal) => (
-            <Card key={pal.id} pal={pal} onClick={() => setSelectedPal(pal)} />
+            <Card key={pal.id} pal={pal}  onClick={() => handleCardClick(pal)}/>
+            // onClick={() => setSelectedPal(pal)}
           ))}
         </div>
       </section>
-      {selectedPal && <ViewCard pal={selectedPal} />}
+      {selectedPal && <ViewCard pal={selectedPal} onClose={handleClose}/>}
     </>
   );
 };

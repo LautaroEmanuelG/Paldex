@@ -1,6 +1,7 @@
 import React from "react";
+import { SVGclose } from "../../assets/SVGclose";
 
-export const ViewCard = ({ pal }) => {
+export const ViewCard = ({ pal, onClose }) => {
   return (
     <article className="viewCard">
       <img className="viewCard__img" src={pal.image} alt={pal.name} />
@@ -47,7 +48,11 @@ export const ViewCard = ({ pal }) => {
           </span>
         </section>
       </section>
-      <div className={`viewCard__background ${pal.types[0]}`}></div>
+      <div className={`viewCard__background ${pal.types[0]}`}>
+        <button className="viewCard__close" onClick={onClose}>
+          <SVGclose />
+        </button>
+      </div>
     </article>
   );
 };

@@ -9,6 +9,19 @@
     --background-box: #ededed;
 }
 
+.viewCard__close {
+    display: none;
+    /* display: absolute;
+    top: 0;
+    right: 0;
+    margin: 10px;
+    width: 30px;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    background-color: #FF5350;
+    z-index: 10; */
+}
+
 .viewCard__background {
     display: none;
     position: fixed;
@@ -118,7 +131,7 @@
     align-items: center;
 }
 
-.viewCard__suitability-box{
+.viewCard__suitability-box {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -134,7 +147,7 @@
     flex-direction: row;
     gap: 10px;
     justify-content: center;
-    align-items: center;    
+    align-items: center;
 }
 
 .viewCard__drops {
@@ -146,7 +159,7 @@
     flex-flow: wrap row;
 }
 
-.viewCard__drops-text{
+.viewCard__drops-text {
     display: flex;
     flex-direction: row;
     justify-content: center;
