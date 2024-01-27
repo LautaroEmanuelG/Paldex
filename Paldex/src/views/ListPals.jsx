@@ -8,7 +8,7 @@ export const ListPals = () => {
   const pals = palsData;
   const randomPal = pals[Math.floor(Math.random() * pals.length)];
 
-  const [selectedPal, setSelectedPal] = useState(null);
+  const [selectedPal, setSelectedPal] = useState(randomPal);
 
   const handleCardClick = (pal) => {
     setSelectedPal(pal);
@@ -29,13 +29,24 @@ export const ListPals = () => {
     "Ground",
     "Dragon",
   ];
+  
+  const [searchTerm, setSearchTerm] = useState("");
+
+  const filteredPals = pals.filter(pal =>
+    pal.name.toLowerCase().includes(searchTerm.toLowerCase())
+  );
 
   return (
     <>
       <section className="list">
         <nav className="list__nav">
           <div className="search">
-            <input className="search__input" type="text" />
+          <input
+              className="search__input"
+              type="text"
+              value={searchTerm}
+              onChange={(e) => setSearchTerm(e.target.value)}
+            />
             <button className="search__btn">
               <SVGsearch />
             </button>
@@ -50,24 +61,10 @@ export const ListPals = () => {
               </span>
             ))}
           </div>
-          {/* <span className="type">
-              <img
-                className="type"
-                src={`./src/assets/images/elements/${types[i]}_icon_mini.webp`}
-                alt=""
-              />
-            </span>
-            <span className="type icon__water">agua</span>
-            <span className="type icon__fire">tierra</span>
-            <span className="type icon__neutral">aire</span>
-            <span className="type icon__grass">planta</span>
-            <span className="type ">veneno</span> */}
-          {/* </div> */}
         </nav>
         <div className="listPals">
-          {pals.map((pal) => (
+          {filteredPals.map((pal) => (
             <Card key={pal.id} pal={pal} onClick={() => handleCardClick(pal)} />
-            // onClick={() => setSelectedPal(pal)}
           ))}
         </div>
       </section>
