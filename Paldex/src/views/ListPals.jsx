@@ -1,4 +1,5 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
+import { useMediaQuery } from 'react-responsive';
 import palsData from "../mock/pals.json";
 import { Card } from "./components/Card";
 import { ViewCard } from "./components/ViewCard";
@@ -8,7 +9,9 @@ export const ListPals = () => {
   const pals = palsData;
   const randomPal = pals[Math.floor(Math.random() * pals.length)];
 
-  const [selectedPal, setSelectedPal] = useState(randomPal);
+  const isDesktopOrLaptop = useMediaQuery({ query: '(min-device-width: 1024px)' });
+
+  const [selectedPal, setSelectedPal] = useState(null);
 
   const handleCardClick = (pal) => {
     setSelectedPal(pal);
@@ -40,6 +43,12 @@ export const ListPals = () => {
       pal.name.toLowerCase().includes(searchTerm.toLowerCase()) &&
       (selectedType ? pal.types.includes(selectedType.toLowerCase()) : true)
   );
+
+  useEffect(() => {
+    if (isDesktopOrLaptop) {
+      setSelectedPal(randomPal);
+    }
+  }, [isDesktopOrLaptop]);
 
   return (
     <>
@@ -74,6 +83,7 @@ export const ListPals = () => {
           ))}
         </div>
       </section>
+      {/* {isDesktopOrLaptop && selectedPal && <ViewCard pal={selectedPal} onClose={handleClose} />} */}
       {selectedPal && <ViewCard pal={selectedPal} onClose={handleClose} />}
     </>
   );
