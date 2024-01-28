@@ -19,10 +19,17 @@ export const ViewCard = ({ pal, onClose }) => {
         <span className="viewCard__entry-text">{pal.description}</span>
         <h4 className="viewCard__suitability-title">Suitability</h4>
         <section className="viewCard__suitability">
-          {pal.suitability.map((suitability) => (
-            <div key={suitability} className="viewCard__suitability-box">
+          {pal.suitability.map((suitability, index) => (
+            <div key={index} className="viewCard__suitability-box">
               <span className="viewCard__suitability-icon">
-              <img className="icon" src={`/images/suitability/${suitability.type}_Icon.webp`} alt="" />
+                <img
+                  className="icon"
+                  src={`/images/suitability/${suitability.type.replace(
+                    /\s/g,
+                    "_"
+                  )}_Icon.webp`}
+                  alt=""
+                />
               </span>
               <span className="viewCard__suitability-type">
                 {suitability.type}:{" "}
@@ -37,7 +44,13 @@ export const ViewCard = ({ pal, onClose }) => {
         <section className="viewCard__drops">
           {pal.drops.map((drop) => (
             <div key={drop} className="viewCard__drops-text">
-              <span className="viewCard__drops-icon">🌞</span>
+              <span className="viewCard__drops-icon">
+                <img
+                  className="icon"
+                  src={`/images/drops/${drop.replace(/\s/g, "_")}_icon.webp`}
+                  alt=""
+                />
+              </span>
               <span className="viewCard__drops-item">{drop}</span>
             </div>
           ))}
