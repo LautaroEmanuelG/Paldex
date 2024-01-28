@@ -33,10 +33,6 @@ export const ListPals = () => {
 
   const [searchTerm, setSearchTerm] = useState("");
 
-  // const filteredPals = pals.filter(pal =>
-  //   pal.name.toLowerCase().includes(searchTerm.toLowerCase())
-  // );
-
   const [selectedType, setSelectedType] = useState("");
 
   const filteredPals = pals.filter(
@@ -67,10 +63,7 @@ export const ListPals = () => {
                 key={type}
                 onClick={() => setSelectedType(type)}
               >
-                <img
-                  src={`/images/elements/${type}_icon_mini.webp`}
-                  alt=""
-                />
+                <img src={`/images/elements/${type}_icon_mini.webp`} alt="" />
               </span>
             ))}
           </div>

@@ -5,10 +5,6 @@
         scrollbar-width: none;
     }
 
-    .list__nav {
-        flex-direction: column;
-        gap: 15px;
-    }
     .types {
         justify-content: center;
     }
@@ -53,9 +49,8 @@
         position: absolute;
         height: 100%;
         width: 100%;
-        padding-bottom: 15%;
+        padding: 50px 0px 15%;
         top: 40px;
-        padding-top: 45px;
         z-index: 2;
         border-radius: 50px 50px 0 0;
     }
