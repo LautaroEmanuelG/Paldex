@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { useMediaQuery } from 'react-responsive';
 import palsData from "../mock/pals.json";
-import { Card } from "./components/Card";
+import { Card } from "../../Card";
 import { ViewCard } from "./components/ViewCard";
 import { SVGsearch } from "../assets/SVGsearch";
 
@@ -83,7 +83,6 @@ export const ListPals = () => {
           ))}
         </div>
       </section>
-      {/* {isDesktopOrLaptop && selectedPal && <ViewCard pal={selectedPal} onClose={handleClose} />} */}
       {selectedPal && <ViewCard pal={selectedPal} onClose={handleClose} />}
     </>
   );

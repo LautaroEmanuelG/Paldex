@@ -21,7 +21,9 @@ export const ViewCard = ({ pal, onClose }) => {
         <section className="viewCard__suitability">
           {pal.suitability.map((suitability) => (
             <div key={suitability} className="viewCard__suitability-box">
-              <span className="viewCard__suitability-icon">🌞</span>
+              <span className="viewCard__suitability-icon">
+              <img className="icon" src={`/images/suitability/${suitability.type}_Icon.webp`} alt="" />
+              </span>
               <span className="viewCard__suitability-type">
                 {suitability.type}:{" "}
               </span>
