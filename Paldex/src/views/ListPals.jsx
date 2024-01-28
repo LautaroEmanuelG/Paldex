@@ -1,9 +1,10 @@
 import React, { useEffect, useState } from "react";
 import { useMediaQuery } from 'react-responsive';
 import palsData from "../mock/pals.json";
-import { Card } from "../../Card";
+import { Card } from "./components/Card";
 import { ViewCard } from "./components/ViewCard";
 import { SVGsearch } from "../assets/SVGsearch";
+import { SVGupward } from "../assets/SVGupward";
 
 export const ListPals = () => {
   const pals = palsData;
@@ -50,9 +51,40 @@ export const ListPals = () => {
     }
   }, [isDesktopOrLaptop]);
 
+  const [showButton, setShowButton] = useState(false);
+
+  useEffect(() => {
+    const checkScrollPosition = () => {
+      if (window.pageYOffset > window.innerHeight) {
+        setShowButton(true);
+      } else {
+        setShowButton(false);
+      }
+    };
+
+    window.addEventListener('scroll', checkScrollPosition);
+
+    return () => {
+      window.removeEventListener('scroll', checkScrollPosition);
+    };
+  }, []);
+
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    });
+  };
+
   return (
     <>
+      {showButton && (
+        <button className="returnToTop" onClick={scrollToTop}>
+          <SVGupward />
+        </button>
+      )}
       <section className="list">
+
         <nav className="list__nav">
           <div className="search">
             <input
