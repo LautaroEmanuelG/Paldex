@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { useMediaQuery } from 'react-responsive';
+import { useMediaQuery } from "react-responsive";
 import palsData from "../mock/pals.json";
 import { Card } from "./components/Card";
 import { ViewCard } from "./components/ViewCard";
@@ -10,7 +10,9 @@ export const ListPals = () => {
   const pals = palsData;
   const randomPal = pals[Math.floor(Math.random() * pals.length)];
 
-  const isDesktopOrLaptop = useMediaQuery({ query: '(min-device-width: 1024px)' });
+  const isDesktopOrLaptop = useMediaQuery({
+    query: "(min-device-width: 1024px)",
+  });
 
   const [selectedPal, setSelectedPal] = useState(null);
 
@@ -62,17 +64,17 @@ export const ListPals = () => {
       }
     };
 
-    window.addEventListener('scroll', checkScrollPosition);
+    window.addEventListener("scroll", checkScrollPosition);
 
     return () => {
-      window.removeEventListener('scroll', checkScrollPosition);
+      window.removeEventListener("scroll", checkScrollPosition);
     };
   }, []);
 
   const scrollToTop = () => {
     window.scrollTo({
       top: 0,
-      behavior: 'smooth'
+      behavior: "smooth",
     });
   };
 
@@ -84,7 +86,6 @@ export const ListPals = () => {
         </button>
       )}
       <section className="list">
-
         <nav className="list__nav">
           <div className="search">
             <input
@@ -100,9 +101,9 @@ export const ListPals = () => {
           <div className="types">
             {types.map((type) => (
               <span
-                className="type"
-                key={type}
-                onClick={() => setSelectedType(type)}
+              className={`type ${type !== "" && type === selectedType ? "selected" : ""}`}
+              key={type}
+              onClick={() => setSelectedType(type)}
               >
                 <img src={`/images/elements/${type}_icon_mini.webp`} alt="" />
               </span>

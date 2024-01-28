@@ -20,6 +20,13 @@
     --background-text: white;
     --box-shadow-text: #ededed 0 10px 10px;
     --background-btn: #f2f2f2;
+    --background-card: #ffffff;
+    --background-card-active: #d1cdcd;
+    --text: #242424;
+    --text-number: #a1a1a1;
+    --box-shadow-card: #ededed 0 10px 10px;
+    --box-shadow-card-hover: #bdbdbd 0 10px 10px;
+
 }
 
 #root {
@@ -177,6 +184,7 @@ main {
     display: flex;
     flex-direction: row;
     gap: 10px;
+    height: min-content;
     justify-content: flex-end;
     align-items: center;
     flex-wrap: wrap;
@@ -196,6 +204,22 @@ main {
     cursor: pointer;
     border: 2px solid var(--background-text);
     box-shadow: var(--box-shadow-text);
+    transition-duration: 200ms;
+}
+
+.type:hover {
+    border: 2px solid var(--text-number);
+    box-shadow: var(--box-shadow-card-hover);
+}
+
+.type:active{
+    background-color: var(--background-card-active);
+}
+
+.type.selected {
+    border: 2px solid var(--text-number);
+    box-shadow: var(--box-shadow-card-hover);    
+    background-color: var(--background-card-active);
 }
 
 .type :nth-child(1) {
