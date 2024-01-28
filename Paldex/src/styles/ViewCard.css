@@ -11,15 +11,6 @@
 
 .viewCard__close {
     display: none;
-    /* display: absolute;
-    top: 0;
-    right: 0;
-    margin: 10px;
-    width: 30px;
-    aspect-ratio: 1/1;
-    border-radius: 50%;
-    background-color: #FF5350;
-    z-index: 10; */
 }
 
 .viewCard__background {
@@ -39,7 +30,7 @@
     top: 12vh;
     flex-direction: column;
     align-items: center;
-    margin: 60px 15px 0;
+    margin: 60px 0 0 20px;
     width: 500px;
     height: 90vh;
     background-color: var(--background-card);
