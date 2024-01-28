@@ -1,0 +1,222 @@
+[
+  {
+    "name": "Wool",
+    "pals": ["Lamball", "Cremis", "Melpaca", "Swee", "Sweepa", "Kingpaca"]
+  },
+  { "name": "Lamball Mutton", "pals": ["Lamball"] },
+  { "name": "Red Berries", "pals": ["Cattiva", "Caprity"] },
+  { "name": "Egg", "pals": ["Chikipi", "Kingpaca"] },
+  { "name": "Chikipi Poultry", "pals": ["Chikipi"] },
+  { "name": "Berry Seeds", "pals": ["Lifmunk", "Gumoss"] },
+  {
+    "name": "Low Grade Medical Supplies",
+    "pals": ["Lifmunk", "Flopie", "Vaelet", "Lyleen"]
+  },
+  {
+    "name": "Leather",
+    "pals": [
+      "Foxparks",
+      "Fuack",
+      "Rooby",
+      "Vixy",
+      "Rushoar",
+      "Nox",
+      "Fuddler",
+      "Direhowl",
+      "Mossanda",
+      "Melpaca",
+      "Eikthyrdeer",
+      "Nitewing",
+      "Ribbuny",
+      "Incineram",
+      "Galeclaw",
+      "Gorirat",
+      "Chillet",
+      "Univolt",
+      "Foxcicle",
+      "Pyrin",
+      "Reindrix",
+      "Kitsun",
+      "Tombat",
+      "Katress",
+      "Verdash",
+      "Mammorest",
+      "Fenglope",
+      "Grizzbolt"
+    ]
+  },
+  {
+    "name": "Flame Organ",
+    "pals": [
+      "Foxparks",
+      "Rooby",
+      "Arsox",
+      "Pyrin",
+      "Kitsun",
+      "Flambelle",
+      "Ragnahawk",
+      "Wixen",
+      "Blazehowl",
+      "Reptyro",
+      "Blazamut",
+      "Suzaku",
+      "Faleris"
+    ]
+  },
+  {
+    "name": "Pal Fluids",
+    "pals": [
+      "Fuack",
+      "Pengullet",
+      "Teafant",
+      "Celaray",
+      "Gobfin",
+      "Surfent",
+      "Kelpsea",
+      "Jormuntide"
+    ]
+  },
+  {
+    "name": "Electric Organ",
+    "pals": [
+      "Sparkit",
+      "Jolthog",
+      "Univolt",
+      "Rayhound",
+      "Dazzi",
+      "Beakon",
+      "Grizzbolt",
+      "Orserk"
+    ]
+  },
+  { "name": "Mushroom", "pals": ["Tanzee", "Mossanda", "Lovander"] },
+  {
+    "name": "Ice Organ",
+    "pals": [
+      "Pengullet",
+      "Penking",
+      "Foxcicle",
+      "Reindrix",
+      "Sibelyx",
+      "Cryolinx",
+      "Wumpo",
+      "Frostallion"
+    ]
+  },
+  { "name": "Penking Plume", "pals": ["Penking"] },
+  { "name": "Gumoss Leaf", "pals": ["Gumoss"] },
+  {
+    "name": "Bone",
+    "pals": [
+      "Vixy",
+      "Rushoar",
+      "Cawgnito",
+      "Loupmoon",
+      "Gorirat",
+      "Maraith",
+      "Vanwyrm",
+      "Bushi",
+      "Verdash",
+      "Petallia",
+      "Anubis"
+    ]
+  },
+  { "name": "Fiber", "pals": ["Hoocrates", "Hangyu"] },
+  {
+    "name": "High Grade Technical Manual",
+    "pals": ["Hoocrates", "Katress", "Wixen"]
+  },
+  {
+    "name": "Venom Gland",
+    "pals": [
+      "Depresso",
+      "Daedream",
+      "Killamari",
+      "Cawgnito",
+      "Helzephyr",
+      "Menasting"
+    ]
+  },
+  {
+    "name": "Small Pal Soul",
+    "pals": ["Daedream", "Nox", "Cawgnito", "Maraith", "Tombat", "Felbat"]
+  },
+  { "name": "Rushoar Pork", "pals": ["Rushoar"] },
+  { "name": "Gold Coin", "pals": ["Mau", "Direhowl", "Vanwyrm"] },
+  { "name": "Ruby", "pals": ["Direhowl", "Vanwyrm", "Relaxaurus"] },
+  { "name": "Gunpowder", "pals": ["Tocotoco"] },
+  { "name": "Tocotoco Feather", "pals": ["Tocotoco"] },
+  {
+    "name": "Wheat Seeds",
+    "pals": ["Flopie", "Bristla", "Cinnamoth", "Robinquill", "Dinossom"]
+  },
+  { "name": "Mozzarina Meat", "pals": ["Mozzarina"] },
+  { "name": "Milk", "pals": ["Mozzarina"] },
+  { "name": "Lettuce Seeds", "pals": ["Bristla", "Cinnamoth"] },
+  { "name": "Tomato Seeds", "pals": ["Mossanda", "Vaelet", "Broncherry"] },
+  { "name": "Cotton Candy", "pals": ["Woolipop"] },
+  {
+    "name": "High Quality Pal Oil",
+    "pals": [
+      "Woolipop",
+      "Dumud",
+      "Grintale",
+      "Digtoise",
+      "Flambelle",
+      "Elphidran",
+      "Relaxaurus",
+      "Mammorest",
+      "Quivern"
+    ]
+  },
+  { "name": "Caprity Meat", "pals": ["Caprity"] },
+  {
+    "name": "Horn",
+    "pals": [
+      "Caprity",
+      "Eikthyrdeer",
+      "Incineram",
+      "Arsox",
+      "Univolt",
+      "Reindrix",
+      "Fenglope"
+    ]
+  },
+  { "name": "Eikthyrdeer Venison", "pals": ["Eikthyrdeer"] },
+  { "name": "Beautiful Flower", "pals": ["Ribbuny", "Wumpo", "Lyleen"] },
+  { "name": "Honey", "pals": ["Cinnamoth", "Beegarde", "Elizabee", "Warsect"] },
+  { "name": "Raw Dumud", "pals": ["Dumud"] },
+  { "name": "Copper Key", "pals": ["Leezpunk"] },
+  { "name": "Silver Key", "pals": ["Leezpunk"] },
+  { "name": "Galeclaw Poultry", "pals": ["Galeclaw"] },
+  { "name": "Arrow", "pals": ["Robinquill"] },
+  { "name": "Elizabee's Staff", "pals": ["Elizabee"] },
+  { "name": "Reindrix Venison", "pals": ["Reindrix"] },
+  { "name": "Paldium Fragment", "pals": ["Lunaris"] },
+  { "name": "Ore", "pals": ["Digtoise"] },
+  { "name": "Cake", "pals": ["Lovander"] },
+  { "name": "Suspicious Juice", "pals": ["Lovander"] },
+  { "name": "Strange Juice", "pals": ["Lovander"] },
+  { "name": "Ingot", "pals": ["Bushi"] },
+  { "name": "Katress Hair", "pals": ["Katress"] },
+  { "name": "High Quality Cloth", "pals": ["Sibelyx"] },
+  { "name": "Raw Kelpsea", "pals": ["Kelpsea"] },
+  { "name": "Cloth", "pals": ["Azurobe", "Felbat"] },
+  { "name": "Broncherry Meat", "pals": ["Broncherry"] },
+  { "name": "Large Pal Soul", "pals": ["Petallia", "Anubis", "Necromus"] },
+  {
+    "name": "Innovative Technical Manual",
+    "pals": ["Petallia", "Anubis", "Lyleen", "Shadowbeak"]
+  },
+  { "name": "Mammorest Meat", "pals": ["Mammorest"] },
+  { "name": "Coal", "pals": ["Blazamut", "Menasting"] },
+  { "name": "Medium Pal Soul", "pals": ["Helzephyr"] },
+  {
+    "name": "Pal Metal Ingot",
+    "pals": ["Astegon", "Shadowbeak", "Paladius", "Necromus"]
+  },
+  { "name": "Pure Quartz", "pals": ["Astegon", "Jetragon"] },
+  { "name": "Carbon Fiber", "pals": ["Shadowbeak", "Jetragon"] },
+  { "name": "Diamond", "pals": ["Paladius", "Frostallion", "Jetragon"] },
+  { "name": "Polymer", "pals": ["Jetragon"] }
+]

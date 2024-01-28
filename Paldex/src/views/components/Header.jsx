@@ -22,16 +22,9 @@ export const Header = () => {
         <Link
           className="header__nav-btn"
           style={{ textDecoration: "none", color: "#fff" }}
-          to="/alternative-form"
+          to="/drops"
         >
-          <span>Alternative Form</span>
-        </Link>
-        <Link
-          className="header__nav-btn"
-          style={{ textDecoration: "none", color: "#fff" }}
-          to="/boss"
-        >
-          <span>Boss</span>
+          <span>Drops</span>
         </Link>
       </nav>
     </header>

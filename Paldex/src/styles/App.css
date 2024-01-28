@@ -33,11 +33,6 @@
     position: relative;
 }
 
-.header__nav :nth-child(2),
-.header__nav :nth-child(3) {
-    display: none;
-}
-
 body {
     padding: 0 10vw;
     width: 100%;

@@ -10,6 +10,7 @@ import { ListPals } from "./views/ListPals";
 import { Layout } from "./views/Layout";
 import { AlternativeForm } from "./views/AlternativeForm";
 import { Boss } from "./views/Boss";
+import { Drops } from "./views/Drops";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
@@ -17,8 +18,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<ListPals />} />
-          <Route path="alternative-form" element={<AlternativeForm />} />
-          <Route path="boss" element={<Boss />} />
+          <Route path="drops" element={<Drops />} />
         </Route>
         <Route path="*" element={<Navigate replace to="/" />} />
       </Routes>
