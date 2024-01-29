@@ -32,6 +32,15 @@ export const Header = () => {
         >
           <span>Drops</span>
         </Link>
+        <Link
+          className={`header__nav-btn ${
+            location.pathname === "/camp-base" ? "selectedButton" : ""
+          }`}
+          style={{ textDecoration: "none", color: "#fff" }}
+          to="/camp-base"
+        >
+          <span>Camp</span>
+        </Link>
       </nav>
     </header>
   );
