@@ -8,8 +8,6 @@ import "./styles/ViewCard.css";
 import "./styles/MediaQuerys.css";
 import { ListPals } from "./views/ListPals";
 import { Layout } from "./views/Layout";
-import { AlternativeForm } from "./views/AlternativeForm";
-import { Boss } from "./views/Boss";
 import { Drops } from "./views/Drops";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
