@@ -101,9 +101,11 @@ export const ListPals = () => {
           <div className="types">
             {types.map((type) => (
               <span
-              className={`type ${type !== "" && type === selectedType ? "selected" : ""}`}
-              key={type}
-              onClick={() => setSelectedType(type)}
+                className={`type ${
+                  type !== "" && type === selectedType ? "selected" : ""
+                }`}
+                key={type}
+                onClick={() => setSelectedType(type)}
               >
                 <img src={`/images/elements/${type}_icon_mini.webp`} alt="" />
               </span>

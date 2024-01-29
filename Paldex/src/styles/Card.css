@@ -31,7 +31,7 @@
     box-shadow: var(--box-shadow-card-hover);
 }
 
-.card:active{
+.card:active {
     background-color: var(--background-card-active);
 }
 
@@ -44,7 +44,7 @@
     transition-duration: 200ms;
 }
 
-.card:hover .card__img{
+.card:hover .card__img {
     width: 85px;
 }
 
@@ -110,4 +110,8 @@
 
 .dragon {
     background-color: #7038f8;
+}
+
+.app {
+    background-color: #7dedf7;
 }

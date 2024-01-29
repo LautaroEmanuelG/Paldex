@@ -10,7 +10,11 @@ export const ViewCard = ({ pal, onClose, drop }) => {
   if (drop) {
     return (
       <article className="viewCard">
-        <img className="viewCard__img" src={`/images/drops/${drop.name.replace(/\s/g, "_")}_icon.webp`} alt={drop.name} />
+        <img
+          className="viewCard__img"
+          src={`/images/drops/${drop.name.replace(/\s/g, "_")}_icon.webp`}
+          alt={drop.name}
+        />
         <section className="viewCard__box">
           <h2 className="viewCard__title">{drop.name}</h2>
           {/* <h4 className="viewCard__entry">Paldex Entry</h4>
@@ -22,7 +26,7 @@ export const ViewCard = ({ pal, onClose, drop }) => {
             ))}
           </section>
         </section>
-        <div className={`viewCard__background`}>
+        <div className={`viewCard__background app`}>
           <button className="viewCard__close" onClick={onClose}>
             <SVGclose />
           </button>
