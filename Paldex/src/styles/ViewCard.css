@@ -187,3 +187,16 @@
     justify-content: center;
     align-items: center;
 }
+
+/* ------------------------------------------------ */
+
+.viewCard__dropedBy{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    flex-flow: wrap row;
+    width: 100%;
+    height: fit-content;
+}

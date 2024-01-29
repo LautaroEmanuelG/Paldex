@@ -10,7 +10,7 @@
 .card {
     display: flex;
     flex-direction: column;
-    flex: 0.5;
+    flex: 1;
     background-color: var(--background-card);
     box-shadow: var(--box-shadow-card);
     border-radius: 20px;
