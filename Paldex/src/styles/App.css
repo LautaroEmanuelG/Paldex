@@ -89,6 +89,10 @@ body {
     color: var(--text-light);
 }
 
+.selectedButton{
+    background-color: var(--background-card-active);
+}
+
 /* --------------------------------------------------------- */
 
 .returnToTop {

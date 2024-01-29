@@ -1,7 +1,9 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 
 export const Header = () => {
+  const location = useLocation();
+
   return (
     <header className="header">
       <Link
@@ -13,14 +15,18 @@ export const Header = () => {
       </Link>
       <nav className="header__nav">
         <Link
-          className="header__nav-btn"
+          className={`header__nav-btn ${
+            location.pathname === "/" ? "selectedButton" : ""
+          }`}
           style={{ textDecoration: "none", color: "#fff" }}
           to="/"
         >
           <span>List</span>
         </Link>
         <Link
-          className="header__nav-btn"
+          className={`header__nav-btn ${
+            location.pathname === "/drops" ? "selectedButton" : ""
+          }`}
           style={{ textDecoration: "none", color: "#fff" }}
           to="/drops"
         >
