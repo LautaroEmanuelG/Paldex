@@ -34,10 +34,10 @@ export const Header = () => {
         </Link>
         <Link
           className={`header__nav-btn ${
-            location.pathname === "/camp-base" ? "selectedButton" : ""
+            location.pathname === "/workers" ? "selectedButton" : ""
           }`}
           style={{ textDecoration: "none", color: "#fff" }}
-          to="/camp-base"
+          to="/workers"
         >
           <span>Camp</span>
         </Link>
