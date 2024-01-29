@@ -1,7 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom";
-// import './styles/index.css'
 import "./styles/App.css";
 import "./styles/Card.css";
 import "./styles/ViewCard.css";
