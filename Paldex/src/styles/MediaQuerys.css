@@ -9,6 +9,11 @@
         justify-content: center;
     }
 
+    .type:hover {
+        border: 2px solid var(--background-text);
+        box-shadow: var(--box-shadow-text);
+    }
+
     .viewCard__close {
         display: var(--display-card);
         position: absolute;
