@@ -73,12 +73,30 @@ export const Workers = () => {
         : true)
   );
 
+  const [workers, setWorkers] = useState([]);
+
+  const addPal = (pal) => {
+    if (workers.length < 20) {
+      setWorkers((prevWorkers) => [...prevWorkers, pal]);
+    }
+  };
+
+  const [isViewWorkersVisible, setIsViewWorkersVisible] = useState(false);
+
+  const handleButtonClick = () => {
+    setIsViewWorkersVisible(true);
+  };
+
+  const handleCloset = () => {
+    setIsViewWorkersVisible(false);
+  };
+
   return (
     <>
       <div className="campCountBtns">
-        <button className="campCountBtn" onClick={scrollToTop}>
+        <button className="campCountBtn" onClick={handleButtonClick}>
+          <span className="campCount__number">{workers.length}</span>
           <SVGcamping />
-          <span className="campCount__number"></span>
         </button>
         {showButton && (
           <button className="campCountBtn" onClick={scrollToTop}>
@@ -123,12 +141,19 @@ export const Workers = () => {
         </nav>
         <article className="listPals">
           {filteredPals.map((pal, index) => (
-            <Card key={index} pal={pal} onClick={() => handleCardClick(pal)} />
+            <Card
+              key={index}
+              pal={pal}
+              worker={true}
+              onClick={() => {
+                handleCardClick(pal);
+                addPal(pal);
+              }}
+            />
           ))}
         </article>
       </section>
-      {/* {selectedPal && <ViewCard drop={selectedDrop} onClose={handleClose} />} */}
-      {selectedPal && <ViewWorkers pal={selectedPal} onClose={handleClose} />}
+      {isViewWorkersVisible && selectedPal && <ViewWorkers workers={workers} pal={selectedPal} onClose={handleCloset} />}
     </>
   );
 };
