@@ -98,6 +98,21 @@ export const Workers = () => {
     setWorkers(newWorkers);
   };
 
+  const [isLargeScreen, setIsLargeScreen] = useState(window.innerWidth > 1024);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setIsLargeScreen(window.innerWidth > 1024);
+    };
+
+    window.addEventListener("resize", handleResize);
+
+    // Limpiar el evento al desmontar el componente
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
+
   return (
     <>
       <div className="campCountBtns">
@@ -160,7 +175,14 @@ export const Workers = () => {
           ))}
         </article>
       </section>
-      {isViewWorkersVisible && selectedPal && <ViewWorkers workers={workers} onRemoveWorker={removeWorker} pal={selectedPal} onClose={handleCloset} />}
+      {(isLargeScreen || isViewWorkersVisible) && selectedPal && (
+        <ViewWorkers
+          workers={workers||[]}
+          onRemoveWorker={removeWorker}
+          pal={selectedPal}
+          onClose={handleCloset}
+        />
+      )}
     </>
   );
 };
