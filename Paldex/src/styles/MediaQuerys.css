@@ -70,4 +70,12 @@
         top: 0;
         right: 0;
     }
+
+    .removeWorker {
+        display: flex;
+    }
+
+    .viewCard__table{
+        top: 20px;
+    }
 }

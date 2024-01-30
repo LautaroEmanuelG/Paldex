@@ -91,6 +91,13 @@ export const Workers = () => {
     setIsViewWorkersVisible(false);
   };
 
+  // const [workers, setWorkers] = useState(initialWorkers);
+
+  const removeWorker = (removeIndex) => {
+    const newWorkers = workers.filter((_, index) => index !== removeIndex);
+    setWorkers(newWorkers);
+  };
+
   return (
     <>
       <div className="campCountBtns">
@@ -153,7 +160,7 @@ export const Workers = () => {
           ))}
         </article>
       </section>
-      {isViewWorkersVisible && selectedPal && <ViewWorkers workers={workers} pal={selectedPal} onClose={handleCloset} />}
+      {isViewWorkersVisible && selectedPal && <ViewWorkers workers={workers} onRemoveWorker={removeWorker} pal={selectedPal} onClose={handleCloset} />}
     </>
   );
 };

@@ -1,6 +1,14 @@
 import React from "react";
+import { SVGclose } from "../../assets/SVGclose";
 
-export const Card = ({ pal, onClick, drop, worker }) => {
+export const Card = ({
+  pal,
+  onClick,
+  drop,
+  worker,
+  onViewWorker,
+  onRemoveWorker,
+}) => {
   if (pal) {
     return (
       <div className="card" onClick={onClick}>
@@ -18,7 +26,7 @@ export const Card = ({ pal, onClick, drop, worker }) => {
           <div className="card__suitabilities">
             {pal.suitability.map((suitability) => (
               <span key={suitability.type} className={`card__suitability`}>
-                {suitability.level}
+                <p>{suitability.level}</p>
                 <img
                   src={`/images/suitability/${suitability.type.replace(
                     /\s/g,
@@ -29,6 +37,11 @@ export const Card = ({ pal, onClick, drop, worker }) => {
               </span>
             ))}
           </div>
+        )}
+        {onViewWorker && (
+          <button className="removeWorker" onClick={onRemoveWorker}>
+            <SVGclose />
+          </button>
         )}
       </div>
     );
