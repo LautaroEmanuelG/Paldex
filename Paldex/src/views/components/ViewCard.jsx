@@ -17,14 +17,10 @@ export const ViewCard = ({ pal, onClose, drop }) => {
         />
         <section className="viewCard__box">
           <h2 className="viewCard__title">{drop.name}</h2>
-          {/* <h4 className="viewCard__entry">Paldex Entry</h4>
-        <span className="viewCard__entry-text">{drop.description}</span> */}
           <h4 className="viewCard__drops-title">Droped By</h4>
-          <section className="viewCard__dropedBy">
-            {droped.map((dropedBy, index) => (
-              <Card key={index} pal={dropedBy} />
-            ))}
-          </section>
+          {droped.map((dropedBy, index) => (
+            <Card key={index} pal={dropedBy} />
+          ))}
         </section>
         <div className={`viewCard__background app`}>
           <button className="viewCard__close" onClick={onClose}>
