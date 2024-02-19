@@ -39,7 +39,7 @@ export const Header = () => {
           style={{ textDecoration: "none", color: "#fff" }}
           to="/workers"
         >
-          <span>Camp</span>
+          <span>Base</span>
         </Link>
       </nav>
     </header>
