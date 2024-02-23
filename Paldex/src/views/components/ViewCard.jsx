@@ -18,9 +18,11 @@ export const ViewCard = ({ pal, onClose, drop }) => {
         <section className="viewCard__box">
           <h2 className="viewCard__title">{drop.name}</h2>
           <h4 className="viewCard__drops-title">Droped By</h4>
+          <article className="viewCard_box-pals">
           {droped.map((dropedBy, index) => (
             <Card key={index} pal={dropedBy} />
           ))}
+          </article>
         </section>
         <div className={`viewCard__background app`}>
           <button className="viewCard__close" onClick={onClose}>
@@ -44,12 +46,12 @@ export const ViewCard = ({ pal, onClose, drop }) => {
             ))}
           </div>
           <h4 className="viewCard__entry">Paldex Entry</h4>
-          <span className="viewCard__entry-text">{pal.description}</span>
+          <span className="viewCard__entry-text viewCard-text">{pal.description}</span>
           <h4 className="viewCard__suitability-title">Suitability</h4>
           <section className="viewCard__suitability">
             {pal.suitability.map((suitability, index) => (
               <div key={index} className="viewCard__suitability-box">
-                <span className="viewCard__suitability-icon">
+                <span className="viewCard__suitability-icon viewCard-text">
                   <img
                     className="icon"
                     src={`/images/suitability/${suitability.type.replace(
@@ -59,10 +61,10 @@ export const ViewCard = ({ pal, onClose, drop }) => {
                     alt=""
                   />
                 </span>
-                <span className="viewCard__suitability-type">
+                <span className="viewCard__suitability-type viewCard-text">
                   {suitability.type}:{" "}
                 </span>
-                <span className="viewCard__suitability-level">
+                <span className="viewCard__suitability-level viewCard-text">
                   {suitability.level}
                 </span>
               </div>
@@ -72,21 +74,21 @@ export const ViewCard = ({ pal, onClose, drop }) => {
           <section className="viewCard__drops">
             {pal.drops.map((drop) => (
               <div key={drop} className="viewCard__drops-text">
-                <span className="viewCard__drops-icon">
+                <span className="viewCard__drops-icon viewCard-text">
                   <img
                     className="icon"
                     src={`/images/drops/${drop.replace(/\s/g, "_")}_icon.webp`}
                     alt=""
                   />
                 </span>
-                <span className="viewCard__drops-item">{drop}</span>
+                <span className="viewCard__drops-item viewCard-text">{drop}</span>
               </div>
             ))}
           </section>
           <h4 className="viewCard__aura-title">Aura</h4>
           <section className="viewCard__aura">
             <h5 className="viewCard__aura-name">{pal.aura.name}: </h5>
-            <span className="viewCard__aura-description">
+            <span className="viewCard__aura-description viewCard-text">
               {pal.aura.description}
             </span>
           </section>

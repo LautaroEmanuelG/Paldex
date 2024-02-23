@@ -53,6 +53,18 @@
     padding-bottom: 15%;
 }
 
+.viewCard_box-pals{
+    display: flex;
+    flex-flow: row wrap;
+    gap: 10px;
+    width: 100%;
+    height: 100%;
+}
+.viewCard_box-pals .card{
+    width: 110px;
+    margin-bottom: 15px;
+}
+
 .viewCard h4 {
     color: var(--text);
     font-size: 1.2rem;
@@ -61,7 +73,7 @@
     text-align: center;
 }
 
-.viewCard span {
+.viewCard-text {
     color: var(--text-light);
     font-size: 1.1rem;
     font-weight: 400;
